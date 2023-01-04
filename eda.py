@@ -4,6 +4,11 @@ import matplotlib.pyplot as plt
 
 
 def EDA(data):
+    """Perform exploratory data analysis on a given dataset.
+
+    Args:
+      data (pandas.DataFrame): The dataset to analyze.
+    """
     # Check for missing values
     if data.isnull().values.any():
         # Find the number of missing values for each column
