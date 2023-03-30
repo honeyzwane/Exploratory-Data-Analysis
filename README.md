@@ -1,5 +1,6 @@
 # Exploratory-Data-Analysis
 For this task, I have created a script for EDA. this script can be imported anywhere and used to go through a basic exploration of data. the python script does the following: 
+
 Returns the first five rows of the dataset using the display function from IPython.
 Returns the number of rows and columns in the dataset using the shape attribute of the pandas DataFrame.
 Checks if there are any missing values in the dataset using the isnull().values.any() method. If there are missing values, it - finds the number and percentage of missing values in each column and prints them.
